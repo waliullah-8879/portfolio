@@ -40,7 +40,7 @@ export const fallbackProjects = [
         description: "It is my personal portfolio. Built with React and Tailwind CSS. Responsive on all device sizes with dynamic state-driven navigation and theme transitions.",
         image: portfolioImg,
         github: "https://github.com/waliullah-8879/Portfolio",
-        live: "",
+        live: "https://portfolio-waliullah.vercel.app",
         technologies: ["React", "NodeJS", "ReactJS", "MongoDB"],
         category: ["react"],
         featured: false
