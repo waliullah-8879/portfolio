@@ -172,7 +172,7 @@ export const fallbackCertificates = [
 export const fallbackOverview = {
     name: "Waliullah",
     title: "Junior Software Engineer | Mobile App Developer",
-    cvUrl: "https://drive.google.com/file/d/1RP-SsXp2eppaf591JhBcen6NSilZIQWn/view?usp=drive_link",
+    cvUrl: "https://drive.google.com/file/d/1DvD_Q_dydgMVXmrKm1q8X3-iY4yKLL6D/view?usp=drive_link",
     aboutMe1: "I am currently completing my Bachelor's in Computer Science at City University of Science and Information Technology, Peshawar, while simultaneously advancing my expertise in completing of multiple real projects",
     aboutMe2: "I specialize in creating modern, scalable web applications and mobile applications that prioritize performance, responsiveness, and exceptional user experiences.",
     toolsUsed: ["HTML/CSS", "Figma", "Bootstrap", "JavaScript", "React", "Tailwind", "Github", "PHP", "Python", "MySQL", "Node.js"]
