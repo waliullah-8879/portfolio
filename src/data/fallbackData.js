@@ -1,7 +1,12 @@
 // Static fallback dataset to load when Live API is offline or blocked by ISP/adblockers
 
 import fakeNewsImg from "../assets/fake_news_detector.png";
+import pmsImg from "../assets/PMS.png";
+import portfolioImg from "../assets/porfolio.png";
 import tutorZoneImg from "../assets/tutorzone.png";
+import breastCancerImg from "../assets/breastCancer.png";
+import phishGuardImg from "../assets/phishGuard.png";
+import fireFighterImg from "../assets/fireFighter.png";
 import certJsImg from "../assets/javascript.png";
 import certNetImg from "../assets/networking.png";
 import certPyImg from "../assets/phyton.png";
@@ -33,11 +38,55 @@ export const fallbackProjects = [
         _id: "69f70fb5760bd47519fdae29",
         title: "Personal Portfolio",
         description: "It is my personal portfolio. Built with React and Tailwind CSS. Responsive on all device sizes with dynamic state-driven navigation and theme transitions.",
-        image: "https://res.cloudinary.com/djol393ox/image/upload/v1777799075/Clipped_image_20260429_122707_scpxki.png",
-        github: "https://github.com/samzayoff/Portfolio",
-        live: "https://sameerkhan-drab.vercel.app/#/projects",
+        image: portfolioImg,
+        github: "https://github.com/waliullah-8879/Portfolio",
+        live: "",
         technologies: ["React", "NodeJS", "ReactJS", "MongoDB"],
         category: ["react"],
+        featured: false
+    },
+    {
+        _id: "prisoner_management_system",
+        title: "Prisoner Management System",
+        description: "A comprehensive web application for managing prisoner records, cell allocations, release schedules, and staff assignments. Streamlines jail administration through a structured database-driven interface.",
+        image: pmsImg,
+        github: "https://github.com/waliullah-8879/Prisoner-Management-System",
+        live: "https://lnkd.in/p/dQYmTwp5",
+        technologies: ["javascript", "MySQL", "HTML5", "CSS3", "Bootstrap", "JavaScript"],
+        category: ["management"],
+        featured: false
+    },
+    {
+        _id: "breast_ai_app",
+        title: "Breast AI App",
+        description: "A React Native mobile application for breast cancer detection with personalized stage-based diet plan recommendations powered by AI.",
+        image: breastCancerImg,
+        github: "",
+        live: "",
+        technologies: ["React Native", "Python", "Machine Learning", "Firebase", "JavaScript"],
+        category: ["react native"],
+        featured: false
+    },
+    {
+        _id: "phish_guard",
+        title: "PhishGuard – Spam Email Detector",
+        description: "A React Native mobile application for AI-powered spam email detection with real-time email classification and threat identification.",
+        image: phishGuardImg,
+        github: "",
+        live: "",
+        technologies: ["React Native", "Python", "Machine Learning", "NLP", "JavaScript"],
+        category: ["react native"],
+        featured: false
+    },
+    {
+        _id: "fire_fighting_robot",
+        title: "Fire Fighting Robot",
+        description: "An Arduino Uno-based autonomous robot equipped with IR flame sensors, servo control, and a water pump to detect and extinguish fires in real time.",
+        image: fireFighterImg,
+        github: "",
+        live: "https://lnkd.in/p/dqKviT89",
+        technologies: ["Arduino", "C++", "IR Sensors", "Servo Motor", "Embedded Systems"],
+        category: ["robotics"],
         featured: false
     },
     {
@@ -79,7 +128,7 @@ export const fallbackProjects = [
         technologies: ["Kotlin", "Android SDK", "XML Layouts"],
         category: ["android"],
         featured: false
-    }
+    },
 ];
 
 export const fallbackSkills = [
@@ -123,7 +172,7 @@ export const fallbackCertificates = [
 export const fallbackOverview = {
     name: "Waliullah",
     title: "Junior Software Engineer | Mobile App Developer",
-    cvUrl: "https://drive.google.com/file/d/1zqWkUkjK718UCRa1PkvlqkbeJcGXV93u/view?usp=sharing",
+    cvUrl: "https://drive.google.com/file/d/1RP-SsXp2eppaf591JhBcen6NSilZIQWn/view?usp=drive_link",
     aboutMe1: "I am currently completing my Bachelor's in Computer Science at City University of Science and Information Technology, Peshawar, while simultaneously advancing my expertise in completing of multiple real projects",
     aboutMe2: "I specialize in creating modern, scalable web applications and mobile applications that prioritize performance, responsiveness, and exceptional user experiences.",
     toolsUsed: ["HTML/CSS", "Figma", "Bootstrap", "JavaScript", "React", "Tailwind", "Github", "PHP", "Python", "MySQL", "Node.js"]

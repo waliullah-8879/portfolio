@@ -10,9 +10,8 @@ import { fallbackOverview, fallbackProjects } from "../data/fallbackData";
 function TypingHeading() {
     const texts = [
         "WEB DEVELOPER",
-        "FRONT-END ENTHUSIAST",
-        "EMERGING MERN STACK DEVELOPER",
-        "B.S(C.S) FINAL YEAR",
+        "MOBILE APP DEVELOPER",
+        "B.S COMPUTER SCIENCE",
     ];
 
     const [text, setText] = useState("");
@@ -59,7 +58,8 @@ export default function Home() {
     const [latestProject, setLatestProject] = useState(null);
 
     const handleCVDownload = () => {
-        const cvUrl = overview.cvUrl || "https://drive.google.com/file/d/1zqWkUkjK718UCRa1PkvlqkbeJcGXV93u/view?usp=sharing";
+        // Always use fallbackOverview.cvUrl to avoid stale API data overriding the link
+        const cvUrl = fallbackOverview.cvUrl;
         window.open(cvUrl, '_blank');
     };
 
