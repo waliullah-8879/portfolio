@@ -31,6 +31,11 @@ export default function About() {
         };
         const mergeSkills = (skills) => {
             let list = [...(skills || [])];
+            // Normalize skills to consistently have category and technologies properties
+            list = list.map(s => ({
+                category: s.category || s.name || "",
+                technologies: s.technologies || s.items || []
+            }));
             // Add Mobile App Development if not already present
             const hasMobile = list.some(s => s.category?.toLowerCase().includes("mobile"));
             if (!hasMobile) list = [...list, MOBILE_SKILL];
@@ -89,7 +94,7 @@ export default function About() {
     const [overview, setOverview] = useState({});
 
     const toolsUsed = overview.toolsUsed?.length > 0 ? overview.toolsUsed : [
-        "HTML/CSS", "Figma", "Bootstrap", "JavaScript", "React", "Tailwind",
+        "HTML/CSS", "react native", "Bootstrap", "JavaScript", "React", "Tailwind",
         "Github", "Php", "Blender", "RestApis", "Python", "MySQL",
         "Generative AI", "Cisco Packet Tracer", "Network Essentials", "Machine Learning"
     ];
