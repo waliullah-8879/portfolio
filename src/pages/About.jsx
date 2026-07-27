@@ -143,15 +143,15 @@ export default function About() {
                     About Me
                 </h1>
                 <p className="text-sm sm:text-md text-gray-600 dark:text-gray-300 text-justify leading-relaxed mb-4">
-                    I am Sameer Khan, a Computer Science student at CUSIT and SMIT trainee,
+                    I am waliullah, a Computer Science student at CUSIT,
                     passionate about building modern, responsive, and scalable web
-                    applications using the MERN stack. I have experience in Front-End Development
+                    applications, mobile applications using the MERN stack, and react native. I have experience in Fullstack development and AI problem solving,
                     and continuously work to improve my skills.
                 </p>
 
                 <p className="text-sm sm:text-md text-gray-600 dark:text-gray-300 text-justify leading-relaxed mb-4">
-                    {overview.aboutMeText || `Throughout my career, I have used tools like React, Bootstrap,
-          Php, JavaScript, Tailwind CSS, and Figma. Continuous practice is
+                    {overview.aboutMeText || `Throughout my career, I have used tools like React, react native(expo and CLI), Bootstrap,
+          Php, JavaScript, Tailwind CSS, node.js and express.js. Continuous practice is
           key — skills get rusty if you stop using them, so I keep sharpening my
           knowledge through projects and learning.
           Here are some tools and techniques that I have used while making projects.`}

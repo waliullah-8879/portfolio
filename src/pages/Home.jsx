@@ -11,7 +11,7 @@ function TypingHeading() {
     const texts = [
         "WEB DEVELOPER",
         "MOBILE APP DEVELOPER",
-        "B.S COMPUTER SCIENCE",
+        "problem solving using AI",
     ];
 
     const [text, setText] = useState("");
@@ -214,12 +214,12 @@ export default function Home() {
                     <TypingHeading />
 
                     <p className="mt-4 text-base sm:text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-xl">
-                        junior software engineer | mobile app developer
+                        mobile app developer | problem solving 
                     </p>
 
                     {/* Tech Stack */}
                     <div className="mt-6 flex flex-wrap gap-2 py-2 justify-center md:justify-start">
-                        {["HTML/CSS", "Figma", "Bootstrap", "JavaScript", "React", "Tailwind", "Github"].map((tech, idx) => (
+                        {["HTML/CSS", "react native ", "Bootstrap", "JavaScript", "React", "Tailwind", "Github", "mySQL"].map((tech, idx) => (
                             <span
                                 key={idx}
                                 className={`px-3 py-1.5 rounded-full font-medium text-xs sm:text-sm ${idx % 2 === 0
@@ -258,7 +258,7 @@ export default function Home() {
                     <div className="relative w-full h-full rounded-full overflow-hidden shadow-2xl ring-4 ring-white dark:ring-gray-800 group-hover:scale-105 transition-all">
                         <img
                             src={profilePic}
-                            alt="Sameer Khan"
+                            alt="waliullah"
                             className="w-full h-full object-cover"
                         />
                     </div>
@@ -284,7 +284,7 @@ export default function Home() {
                         simultaneously advancing my expertise in mobile app development and web app development.
                     </p>
                     <p className="mt-3 sm:mt-4 text-sm sm:text-base md:text-lg text-gray-600 dark:text-gray-300 text-justify leading-relaxed">
-                        I specialize in creating modern, scalable web applications, mobile application that
+                        I specialize in creating modern and scalable web applications, mobile application that
                         prioritize performance, responsiveness, and exceptional user
                         experiences.
                     </p>

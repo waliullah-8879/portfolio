@@ -18,7 +18,7 @@ export const fallbackProjects = [
         title: "Fake News Detector",
         description: "A machine learning-driven web application for veracity analysis, assessing the truthfulness of statements based on source reputation, speaker history, and semantic context analysis.",
         image: fakeNewsImg,
-        github: "https://github.com/waliullah-8879/truth-detector.git",
+        github: "https://github.com/waliullah-8879/fake-news-detector",
         live: "https://www.linkedin.com/posts/wali-ullah-476747377_python-react-nlp-activity-7478650985712824320-dpTG?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAF0xOdoBiWLZLGG4efDcvV_3zS2CwDFwAyE",
         technologies: ["Python", "Flask", "React", "Tailwind CSS", "Docker", "Machine Learning"],
         category: ["react"],

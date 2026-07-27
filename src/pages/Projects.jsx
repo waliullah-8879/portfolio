@@ -114,7 +114,6 @@ export default function Projects() {
         { id: "htmlcss", name: "HTML/CSS", count: projects.filter(p => p.category.includes("htmlcss")).length },
         { id: "management", name: "Management System", count: projects.filter(p => p.category.includes("management")).length },
         { id: "robotics", name: "🤖 Robotics", count: projects.filter(p => p.category.includes("robotics")).length },
-        { id: "andriod", name: "Android Development", count: projects.filter(p => p.category.includes("andriod")).length },
         { id: "javascript", name: "Javascript", count: projects.filter(p => p.category.includes("javascript")).length },
         { id: "php", name: "PHP", count: projects.filter(p => p.category.includes("php")).length },
         { id: "ai", name: "AI/Machine Learning", count: projects.filter(p => p.category.includes("ai")).length }
