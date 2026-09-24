@@ -21,6 +21,7 @@ export default function Projects() {
         "PhishGuard – Spam Email Detector",
         "Fire Fighting Robot",
         "Cavdar Multibrand Store",
+        "Northstar Supply Co.",
         "Aims Collection, E-Commerce Website",
         "Fake Store – React + Axios",
         "Initial SignIn Android View"
