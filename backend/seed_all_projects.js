@@ -40,6 +40,17 @@ const projects = [
         featured: false
     },
     {
+        _id: "e-commerce-task-2",
+        title: "Northstar Supply Co.",
+        description: "An internship-grade MERN commerce platform with a React storefront, server-owned pricing, stock-safe checkout, JWT authentication, and role-based administration.",
+        image: "https://opengraph.githubassets.com/1/waliullah-8879/E-Commerce-task-2",
+        github: "https://github.com/waliullah-8879/E-Commerce-task-2",
+        live: "https://e-commerce-nine-theta-95.vercel.app",
+        technologies: ["React", "Vite", "Express", "MongoDB", "Mongoose", "JWT"],
+        category: ["react"],
+        featured: true
+    },
+    {
         _id: "69ccf92c2aa721941e525f05",
         title: "Aims Collection, E-Commerce Website",
         description: "Web storefront featuring seamless responsive product catalogs, details modal, cart checkout, and SVG transitions.",
